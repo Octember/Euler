@@ -6,7 +6,7 @@
 import time
 
 
-def Run():
+def solve():
 	upper_limit = 1000
 	divisors = (3, 5)
 
@@ -26,7 +26,11 @@ def Run():
 if __name__ == "__main__":
 	start_time = time.time()
 
-	Run()
+	solve()
 
 	elapsed_time = time.time() - start_time
 	print "Elapsed time: {} seconds".format(elapsed_time)
+
+
+# Solution: 233168
+# Elapsed time: 0.000999927520752 seconds
